@@ -15,5 +15,7 @@ path = "src/client/main.rs"
 [dependencies]
 env_logger = "0.10.0"
 log = { version = "0.4.20", features = ["std"] }
+mio = { version = "0.8.8" , features = ["net", "os-poll"]}
 quiche = "0.18.0"
 ring = "0.17.4"
+url = "1"
